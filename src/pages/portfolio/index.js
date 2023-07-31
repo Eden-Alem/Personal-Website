@@ -8,7 +8,6 @@ import {
   extracurricular, 
   meta, 
   worktimeline, } from "../../content_option";
-import { Link } from "react-router-dom";
 
 export const Portfolio = () => {
   return (
