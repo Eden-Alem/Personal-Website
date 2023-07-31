@@ -8,8 +8,8 @@ const introdata = {
     title: "I’m Eden Berhan Alem",
     animated: {
         first: "Versatile Software Engineer.",
-        second: "Enthusiastic about Data Science & ML.",
-        third: "Intrigued in Information Security & App Dev.",
+        second: "Enthusiastic about Data Science & Machine Learning.",
+        third: "Empowering Lives through Technology.",
     },
     description: "A Software Engineer looking to build innovative solutions that make a difference by creating a positive global impact.",
     about: "Explore my skills, tech stack, and hobbies, and how I craft inventive solutions to drive positive change.",
@@ -116,27 +116,27 @@ const skills = [{
 
 const services = [{
         title: "Data Science & Applied Machine Learning",
-        description: "",
-    },
-    {
-        title: "Consultation & Project Management",
-        description: "",
-    },
-    {
-        title: "Information Security",
-        description: "",
+        description: "Python | Data Manipulation & Analysis: Pandas | Data Visualization: Matplotlib, Seaborn, Plotly | Machine Learning Models: Linear Regression, XGBoost Regression, Logistic Regression, Gradient Boosting Machine, Random Forest, K-Nearest Neighbors (KNN) | Feature Engineering: Feature Scaling, Feature Selection, One-Hot Encoding, Cold Start Handling | Model Evaluation: Cross-Validation, Error Functions, Hyperparameter Tuning, Evaluation Metrics",
     },
     {
         title: "Full-Stack Development",
-        description: "",
+        description: "Back-End Development: NodeJS, ExpressJS, Apex | Front-End Development: ReactJS, HTML, CSS, JavaScript, Lightning, Bootstrap | Mobile App Development: Flutter, Java",
     },
     {
         title: "Database Management",
-        description: "",
+        description: "Relational Databases: PostgreSQL, MySQL | NoSQL Databases: MongoDB | Salesforce: Salesforce Object Query Language(SOQL)",
     },
     {
         title: "Methodologies & Version Control",
-        description: "",
+        description: "Version Control: Git, GitHub | Agile Methodology: Agile Project Management, Scrum | Design Patterns: Model-View-Controller (MVC), Adapter, Strategy, Observer, Decorator",
+    },
+    {
+        title: "Consultation & Project Management",
+        description: "Data Management Consultation: Strategy, Organization, Security | Data Usage Consultation: Analysis, Insights, Recommendations | Project Management: Planning, Coordination, Execution | Team Collaboration: Cross-functional, Communication | Risk Management: Mitigation, Monitoring, Delivery | Client Relationship Management: Engagement, Support | Agile Methodology: Adaptability, Efficiency",
+    },
+    {
+        title: "Information Security",
+        description: "Research Papers and Books: Computer Security, Attacks (side-channel attacks, cold boot attacks, malicious hardware, rowhammer attacks), Data Oblivious Programming, Cryptography | Online Courses: Cybrary, Hackerone, Coursera: Networking, Web Security, and more",
     },
 ];
 
