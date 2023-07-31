@@ -58,7 +58,7 @@ export const Home = () => {
                 </div>
                 <hr className="t_border my-4 ml-0 text-left p-2" />
                 <p className="mb-1x">{introdata.about}</p>
-                <div className="intro_btn-action pb-5">
+                <div className="intro_btn-action pb-4">
                   <Link to="/about" className="text_2">
                     <div id="button_h" className="ac_btn btn ">
                       About Me

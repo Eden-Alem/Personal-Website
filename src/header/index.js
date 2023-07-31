@@ -52,8 +52,8 @@ const Headermain = () => {
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
-            <a href={socialprofils.github}>Github</a>
-            <a href={socialprofils.linkedin}>Linkedin</a>
+            <a href={socialprofils.github} target="_blank" rel="noopener noreferrer">Github</a>
+            <a href={socialprofils.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a>
             </div>
             <p className="copyright m-0">copyright __ {logotext}</p>
           </div>
