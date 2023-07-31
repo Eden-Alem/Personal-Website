@@ -2,7 +2,13 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, education, extracurricular, meta } from "../../content_option";
+import { 
+  dataportfolio, 
+  education, 
+  extracurricular, 
+  meta, 
+  worktimeline, } from "../../content_option";
+import { Link } from "react-router-dom";
 
 export const Portfolio = () => {
   return (
@@ -34,6 +40,26 @@ export const Portfolio = () => {
         </div>
         <Row className=" sec_sp">
           <hr className="t_border my-4 ml-0 text-left" />
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Work Experience</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {worktimeline.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.jobtitle}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
         </Row>
         <Row className="sec_sp">
           <Col lang="5">

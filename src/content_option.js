@@ -12,6 +12,7 @@ const introdata = {
         third: "Intrigued in Information Security & App Dev.",
     },
     description: "A Software Engineer looking to build innovative solutions that make a difference by creating a positive global impact.",
+    about: "Explore my skills, tech stack, and hobbies, and how I craft inventive solutions to drive positive change.",
     your_img_url: "https://i.imgur.com/PdNuuAX.jpg",
 };
 

@@ -38,7 +38,7 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
-                <div className="intro_btn-action pb-5">
+                <div className="intro_btn-action pb-3">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       My Portfolio
@@ -55,6 +55,18 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </a>
+                </div>
+                <hr className="t_border my-4 ml-0 text-left p-2" />
+                <p className="mb-1x">{introdata.about}</p>
+                <div className="intro_btn-action pb-5">
+                  <Link to="/about" className="text_2">
+                    <div id="button_h" className="ac_btn btn ">
+                      About Me
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
