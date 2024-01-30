@@ -7,42 +7,49 @@ const meta = {
 const introdata = {
     title: "I’m Eden Berhan Alem",
     animated: {
-        first: "Versatile Software Engineer.",
-        second: "Enthusiastic about Data Science & Machine Learning.",
-        third: "Empowering Lives through Technology.",
+        first: "Versatile Data Scientist & Applied ML Specialist.",
+        second: "Innovative Communicator: Bridging Technology & Human Interaction.",
+        third: "Tech Enthusiast: Empowering Lives through Technology.",
     },
-    description: "A Software Engineer looking to build innovative solutions that make a difference by creating a positive global impact.",
+    description: "An experienced data scientist specializing in applied machine learning with a background in software engineering and a proven track record in predictive modeling and data-driven solutions.",
     about: "Explore my skills, tech stack, and hobbies, and how I craft inventive solutions to drive positive change.",
     your_img_url: "https://i.imgur.com/PdNuuAX.jpg",
 };
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "I am a Software Engineer with strong fundamentals in data science, web and mobile application development, data management systems, cybersecurity, and applied machine learning looking to leverage my expertise and passion looking to craft inventive solutions that drive positive change.",
+    aboutme: "I am a data scientist with strong fundamentals in applied machine learning, and a background in software engineering, web and mobile application development, data management systems, and information security looking to leverage my expertise and passion to craft inventive solutions that drive positive change.",
 };
 const extracurricular = [{
     title: "American Corner, US Embassy",
     description: "Volunteer Leadership Mentor",
-},
-{
+},{
+    title: "Juvenis Maxime",
+    description: "Data Science Mentor",
+},{
     title: "AIESEC",
     description: "HR Manager (Vice President of Talent Management)",
-},
-{
-    title: "United Nations Association of Ethiopia Charter",
-    description: "Executive Board Member",
 },{
     title: "YoungRocket",
     description: "MySQL Lead Instructor",
 },{
+    title: "ITSC Inspire",
+    description: "Event Organizer | Mentor",
+},{
+    title: "United Nations Association of Ethiopia Charter",
+    description: "Executive Board Member",
+},{
     title: "Greenbridge Mentorship Program",
     description: "InfoSec Mentee | https://greenbridge.gr/",
+},{
+    title: "Software Engineering Department at AAU",
+    description: "Student Representative",
 },
 ];
 
 const education = [{
     title: "B.Sc. in Software Engineering - Addis Ababa University | AAiT",
-    description: "Sept 2018 - July 2022 | GPA - 3.56/4.0 | Major GPA - 3.64/4.0 | Coursework: Computer Architecture, Data structures & Algorithms, IT Security, Digital Logic Design, Operating Systems, Distributed Systems, Software development, Mobile application programming, Software project management",
+    description: "Sept 2018 - July 2022 | GPA - 3.56/4.0 | Major GPA - 3.64/4.0 | Coursework: Computer Architecture and Organization, Data structures & Algorithms, Statistical Methods, Human-Computer Interaction, Computer Vision, Design Patterns, Database Management, Machine Learning, IT Security, Digital Logic Design, Operating Systems, Distributed Systems, Software development, Mobile application programming, Software project management",
 },
 {
     title: "Global UGRAD Scholarship Program - Georgia College & State University | GCSU",
@@ -60,6 +67,14 @@ const education = [{
 },
 ];
 const worktimeline = [{
+        jobtitle: "Data Scientist and Applied ML",
+        where: "Julius",
+        date: "2024",
+    },{
+        jobtitle: "Data Scientist",
+        where: "North Dental",
+        date: "2023",
+    },{
         jobtitle: "Data Scientist",
         where: "DataLab",
         date: "2023",
@@ -70,7 +85,7 @@ const worktimeline = [{
         date: "2023",
     },
     {
-        jobtitle: "Back-End Developer",
+        jobtitle: "Data Analyst / Back-End Developer",
         where: "Eskalate",
         date: "2022",
     },{
@@ -105,10 +120,6 @@ const skills = [{
         value: 85,
     },
     {
-        name: "Apex",
-        value: 80,
-    },
-    {
         name: "ReactJS",
         value: 70,
     },
@@ -116,7 +127,7 @@ const skills = [{
 
 const services = [{
         title: "Data Science & Applied Machine Learning",
-        description: "Python | Data Manipulation & Analysis: Pandas | Data Visualization: Matplotlib, Seaborn, Plotly | Machine Learning Models: Linear Regression, XGBoost Regression, Logistic Regression, Gradient Boosting Machine, Random Forest, K-Nearest Neighbors (KNN) | Feature Engineering: Feature Scaling, Feature Selection, One-Hot Encoding, Cold Start Handling | Model Evaluation: Cross-Validation, Error Functions, Hyperparameter Tuning, Evaluation Metrics",
+        description: "Python | Data Manipulation & Analysis: Pandas | Data Visualization: Matplotlib, Seaborn, Plotly | Machine Learning Models: Linear Regression, XGBoost Regression, Logistic Regression, Gradient Boosting Machine, Random Forest, K-Nearest Neighbors (KNN), Support Vector Machine (SVM) | Large Language Models (LLM), Natural Language Processing (NLP), Gen AI | Feature Engineering: Feature Scaling, Feature Selection, One-Hot Encoding, Cold Start Handling | Model Evaluation: Cross-Validation, Error Functions, Hyperparameter Tuning, Evaluation Metrics | AWS Sagemaker, Sagemaker Studio, AWS S3",
     },
     {
         title: "Full-Stack Development",
@@ -124,7 +135,7 @@ const services = [{
     },
     {
         title: "Database Management",
-        description: "Relational Databases: PostgreSQL, MySQL | NoSQL Databases: MongoDB | Salesforce: Salesforce Object Query Language(SOQL)",
+        description: "Relational Databases: SQL, PostgreSQL, MySQL | NoSQL Databases: MongoDB | Salesforce: Salesforce Object Query Language(SOQL)",
     },
     {
         title: "Methodologies & Version Control",
@@ -171,9 +182,14 @@ const dataportfolio = [{
         link: "https://github.com/Eden-Alem/Gebeya-Review-WebApp-Backend",
     },
     {
-        img: "https://plus.unsplash.com/premium_photo-1683121716061-3faddf4dc504?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNwdXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-        description: "Developed JavaScript-based CPU simulation with intuitive UI showcasing computer architecture principles.",
-        link: "https://github.com/Eden-Alem/Basic-Instruction-Cycle-Simulation",
+        img: "https://images.unsplash.com/photo-1581066316382-b48298a35840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGluaW5nJTIwdGFibGUlMjBibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+        description: "Led decentralized dining reservation app with ReactJS frontend and Ethereum/Solidity backend.",
+        link: "https://github.com/Eden-Alem/Dining-Table-Reservation-Fullstack-dApp-",
+    },
+    {
+        img: "https://images.unsplash.com/photo-1542296332-2e4473faf563?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFpcnBvcnQlMjBjYXJ0c3xlbnwwfHwwfHx8MA%3D%3D",
+        description: "Implemented ML-driven cart coupling automation for optimal chaining/unchaining conditions.",
+        link: "https://github.com/Eden-Alem/cart-er/",
     },
     {
         img: "https://plus.unsplash.com/premium_photo-1678104361181-73654a9380df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1hemUlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -181,9 +197,19 @@ const dataportfolio = [{
         link: "https://eden-alem.github.io/Maze_Game/",
     },
     {
-        img: "https://images.unsplash.com/photo-1581066316382-b48298a35840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGluaW5nJTIwdGFibGUlMjBibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
-        description: "Led decentralized dining reservation app with ReactJS frontend and Ethereum/Solidity backend.",
-        link: "https://github.com/Eden-Alem/Dining-Table-Reservation-Fullstack-dApp-",
+        img: "https://plus.unsplash.com/premium_photo-1683121716061-3faddf4dc504?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNwdXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        description: "Developed JavaScript-based CPU simulation with intuitive UI showcasing computer architecture principles.",
+        link: "https://github.com/Eden-Alem/Basic-Instruction-Cycle-Simulation",
+    },
+    {
+        img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am9iJTIwZGVzY3JpcHRpb258ZW58MHx8MHx8fDA%3D",
+        description: "Developed robust deep learning model for text classification on AWS, achieving 85% accuracy.",
+        // link: "https://github.com/Eden-Alem/",
+    },
+    {
+        img: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D",
+        description: "Conducted diverse data analysis and ML projects, including stock price prediction & sentiment analysis, demonstrating versatility and generating valuable insights..",
+        link: "https://github.com/Eden-Alem/DataHub",
     },
     {
         img: "https://images.unsplash.com/photo-1558223708-7bea47cdff1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3MlMjBibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
