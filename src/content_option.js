@@ -67,13 +67,13 @@ const education = [{
 },
 ];
 const worktimeline = [{
+        jobtitle: "Machine Learning and Data Science Eng.",
+        where: "Eccovia",
+        date: "2025",
+    },{
         jobtitle: "Data Scientist and Applied ML",
         where: "Julius",
         date: "2024",
-    },{
-        jobtitle: "Data Scientist",
-        where: "North Dental",
-        date: "2023",
     },{
         jobtitle: "Data Scientist",
         where: "DataLab",
@@ -127,7 +127,7 @@ const skills = [{
 
 const services = [{
         title: "Data Science & Applied Machine Learning",
-        description: "Python | Data Manipulation & Analysis: Pandas | Data Visualization: Matplotlib, Seaborn, Plotly | Machine Learning Models: Linear Regression, XGBoost Regression, Logistic Regression, Gradient Boosting Machine, Random Forest, K-Nearest Neighbors (KNN), Support Vector Machine (SVM) | Large Language Models (LLM), Natural Language Processing (NLP), Gen AI | Feature Engineering: Feature Scaling, Feature Selection, One-Hot Encoding, Cold Start Handling | Model Evaluation: Cross-Validation, Error Functions, Hyperparameter Tuning, Evaluation Metrics | AWS Sagemaker, Sagemaker Studio, AWS S3",
+        description: "Python | Data Manipulation & Analysis: Pandas | Data Visualization: Matplotlib, Seaborn, Plotly | Machine Learning Models: Linear Regression, XGBoost Regression, Logistic Regression, Gradient Boosting Machine, Random Forest, K-Nearest Neighbors (KNN), Support Vector Machine (SVM) | Large Language Models (LLM), Natural Language Processing (NLP), Gen AI | Feature Engineering: Feature Scaling, Feature Selection, One-Hot Encoding, Cold Start Handling | Model Evaluation: Cross-Validation, Error Functions, Hyperparameter Tuning, Evaluation Metrics | AWS Sagemaker, Sagemaker Studio, AWS S3 | Prefect",
     },
     {
         title: "Full-Stack Development",
@@ -170,8 +170,17 @@ const hobbies = [{
 },
 
 ];
-
+// https://unsplash.com/photos/teal-led-panel-EUsVwEOsblE
 const dataportfolio = [{
+        img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "Automated metadata extraction and AI-enhanced database insights for streamlined data analysis.",
+    },{
+        img: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "AI-powered chatbot integrating internal tools to optimize workflows and automate communication.",
+    },{
+        img: "https://images.unsplash.com/photo-1667372283587-e1557c08aca4?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "Intelligent query generation and data mapping to reduce manual effort and improve efficiency.",
+    },{
         img: "https://images.unsplash.com/photo-1610726390560-49954c8cb752?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
         description: "Built XGBoost model for meal site arrivals, integrated in Python dashboard, led cross-functional collaboration for actionable insights.",
         link: "https://github.com/sewaneedata/",
